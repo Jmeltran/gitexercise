@@ -1,9 +1,198 @@
-<html>
-    <head>
-        <title>My Website</title>
-    </head>
-    <body>
-        <h1>Hello,Jhon-Rick !</h1>
-        <h2>Hello,World</h2>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f5db8c4207.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/log.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Interest</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>BSIT Student</p>
+                <h1>Hi,I`m <span>Jhon-Rick Meltran</span><br>from LSPU Los-Baños</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/Grad.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> By the way, I am Jhon-Rick Meltran, 19 years old, a BSIT student of 
+                        LSPU Los Baños Campus, I believe that technology is vast and that 
+                        it can do many things, so I want to see it and know it so that 
+                        I can share with other people the good it brings.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Sports</span><br />Badminton</li>
+                                <li><span>Online Game</span><br />Mobile Legends,COD ETC</li>
+                                <li><span>Computer Programing<br /></span>C#,C++,HTML</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021-2022</span><br />C++ Programing in Work Immersion</li>
+                                <li><span>present</span><br />C#,HTML,Phyton in School Activites</li>
+                                <li><span>future</span><br />***?</li>
+                            </ul>
+                        </div>
+                       <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2014-2016</span><br />Mayapa Elementary School</li>
+                                <li><span>2016-2020</span><br />Asian Computer College</li>
+                                <li><span>2020-2022</span><br />Calamba Doctor`s Colege</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------Interest----------------- -->
+    <div id="interest">
+        <div class="container">
+            <h1 class="sub-title">My Interest</h1>
+            <div class="interest-list">
+                <div>
+                    <i class="fa-solid fa-music"></i>
+                    <h2>Music</h2>
+                    <p>I like to listen to music rock, pop jazz and others because 
+                        it can set the mood depending on the song that is playing 
+                        and it helps me focus on something</p>
+                    <a href="#">Listen more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Movies</h2>
+                    <p>it's also one of my hobbies to watch different shows and my passion 
+                        here is horror, thriller, suspense and puzzle shows that add excitement 
+                        to me watching puzzles what will happen next</p>
+                    <a href="#">Watch more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-plane"></i>
+                    <h2>Travel</h2>
+                    <p>I really like to travel, see different landscapes, 
+                        experience different cultures and be amazed by it, I want to see things 
+                        that I have never seen before and discover amazing things in our world.</p>
+                    <a href="#">Explore more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Gallery---------------->
+    <div id="gallery">
+        <div class="container">
+            <h1 class="sub-title">My Passion and Value</h1>
+            <div class="gallery-list">
+            <div class="gal">
+                <img src="img/image-2.jpg">
+                <div class="layer">
+                <h3>When I was young I knew where I like to play online games and explore it 
+                    that's why I always like the field of technology I also like sci fi movies, 
+                    I also enjoyed watching animated movies.</h3>
+                <p></p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="gal">
+                <img src="img/image-1.jpg">
+                <div class="layer">
+                    <h3>When I grew up I loved mobile and computer games such as Mobile Legends, COC, COD and 
+                        other games that were popular especially during the lockdown, Back then, playing games 
+                        was just my hobby and this was until I became curious about how the things I used to use like psp, 
+                        computers, mobile phones and others were made and I found out that they are used for programming.</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="gal">
+                <img src="img/image-3.jpg">
+                <div class="layer">
+                    <h3>and that's when our school had a work immersion program, I entered Computer Technology 
+                        then in our work immersion there we were taught the basic console of c++ and while 
+                        I was doing the tasks here until our final task we made a simple game our game when 
+                        I was on the console, I was drawn to the idea of ​​the pinoy henyo and then I become 
+                        even more curious about what else I could do with it so this college I took the BSIT course.</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> meltranjhonrick13@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 09308583167</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © JR <i class="fa-solid fa-user-cowboy"></i></p>
+    </div>
+</div>
+
+    <script>
+
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+</body>
 </html>
